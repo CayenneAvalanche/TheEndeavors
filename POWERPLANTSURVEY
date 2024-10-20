@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <main>
+        <h1 id="title">
+            Plant Power Refining
+        </h1>
+        <p id="description">
+We are a state-of-the-art lithium refining company looking to change the way we recycle.
+        </p>
+        <form id="survey-form">
+
+          <div>
+              <label id="name-label">
+                Name:
+              </label>
+              <input type="text" id="name" placeholder="first name" required/>
+            </div>
+
+            <div>
+              <label id="email-label">
+                Email:
+              </label>
+              <input id="email" type="email" placeholder="john@company.com" required/>
+            </div>
+            
+            <div>
+              <label id="number-label">
+                Age:
+              </label>
+              <input type="number" min="1" max="3" id="number" placeholder="36">
+            </div>
+           <fieldset>
+             <legend>Who are you?</legend>
+            <select id="dropdown">
+              <option>Producer</option>
+              <option>Consumer</option>
+              </select>
+</fieldset>
+<fieldset>
+  <legend>Where are you located?</legend>
+  <input type="radio" value="inside" name="location">inside of Louisiana
+  <input type="radio" value="outside" name="location">outside of Louisiana
+  </fieldset>
+             <fieldset>
+             <legend>How did you hear about us?</legend>
+<input value="google" type="checkbox"> Google
+<input value="socials" type="checkbox"> Socials
+<input value="other" type="checkbox"> Other
+</fieldset>
+
+
+
+<fieldset>
+<legend>
+  tell us more about you!
+</legend>
+<textarea>tell us where youre from and why you want to partner with us?</textarea>
+  </fieldset>
+
+            <input
+            <button id="submit" type="submit"></button>
+
+        </form>
+        </main>
+    </body>
+</html>
